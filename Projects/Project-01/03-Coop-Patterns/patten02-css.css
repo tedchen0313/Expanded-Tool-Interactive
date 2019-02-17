@@ -1,0 +1,238 @@
+body{
+
+	font-size: 20px;
+	background-color: #4151A9;
+}
+
+.triangle-up:hover {
+  width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 50px solid #356fff;
+	/*position: fixed;*/
+	top:0px;
+	display: inline-block;
+}
+
+.triangle-up2:hover {
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 50px solid #356fff;
+	/*position: fixed;*/
+	top:0px;
+	left:250px;
+	display: inline-block;
+}
+
+.triangle-down1:hover {
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-top: 50px solid #356fff;
+	/*position: fixed;*/
+	top:0px;
+	left:130px;
+   	display: inline-block;
+}
+
+.triangle-down3:hover {
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-top: 50px solid #356fff;
+	top:0px;
+	left:290px;
+   	display: inline-block;
+}
+
+
+.triangle-up1:hover {
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 50px solid #ff80cc;
+	/*position: fixed; */
+	top:0px;
+	left:130px;
+	display: inline-block;
+}
+
+.triangle-up3:hover {
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 50px solid #ff80cc;
+	/*position: fixed;*/
+	top:0px;
+	left:190px;
+	display: inline-block;
+}
+
+
+.triangle-down:hover {
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-top: 50px solid #ff80cc;
+	/*position: fixed;*/
+	top:0px;
+	left:0px;
+   	display: inline-block;
+}
+
+
+.triangle-down2:hover {
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-top: 50px solid #ff80cc;
+	/*position: fixed;*/
+	top:0px;
+	left:250px;
+   	display: inline-block;
+}
+
+#all{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+
+#container{
+	position: relative;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#container1{
+	position: relative;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+#container2{
+	position: relative;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	left: 60px;
+}
+
+#container3{
+	position: relative;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	left: -60px;
+}
+
+
+
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 50px solid #ffffff;
+	/*position: fixed;*/
+	top:0px;
+	display: inline-block;
+}
+.triangle-up1 {
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 50px solid #4151A9;
+	/*position: fixed; */
+	top:0px;
+	left:130px;
+	display: inline-block;
+}
+.triangle-up2 {
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 50px solid #ffffff;
+	/*position: fixed;*/
+	top:0px;
+	left:250px;
+	display: inline-block;
+}
+
+
+.triangle-up3 {
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 50px solid #4151A9;
+	/*position: fixed;*/
+	top:0px;
+	left:190px;
+	display: inline-block;
+}
+
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-top: 50px solid #4151A9;
+	/*position: fixed;*/
+	top:0px;
+	left:0px;
+   	display: inline-block;
+}
+
+.triangle-down1 {
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-top: 50px solid #ffffff;
+	/*position: fixed;*/
+	top:0px;
+	left:130px;
+   	display: inline-block;
+}
+.triangle-down2 {
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-top: 50px solid #4151A9;
+	/*position: fixed;*/
+	top:0px;
+	left:250px;
+   	display: inline-block;
+}
+
+.triangle-down3 {
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-top: 50px solid #ffffff;
+	top:0px;
+	left:290px;
+   	display: inline-block;
+}
+
+
+
+
+}
