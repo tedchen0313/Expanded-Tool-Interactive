@@ -1,0 +1,352 @@
+body{
+	background-color: #000000;
+	font-size: 20px;
+}
+
+#all{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+.container{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin:50px;
+
+}
+
+.oval{
+
+  	height: 50px;
+ 	width: 100px;
+ 	background-color: #ffffff;
+ 	border-radius: 50%;
+ 	-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  animation-duration: 10s;
+}
+
+.oval2{
+	height: 50px;
+ 	width: 25px;
+ 	background-color: #5a5b5b;
+ 	border-radius: 50%;
+ 	margin-left: -60px;
+ 	-webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: infinite;  /* Safari 4.0 - 8.0 */
+  	animation-duration: 10s;
+
+}
+
+.oval:hover{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 50px;
+ 	width: 100px;
+ 	background-color: #000000;
+ 	border-radius: 50%;
+}
+
+.oval2:hover{
+	height: 50px;
+ 	width: 25px;
+ 	background-color: #cc363e;
+ 	border-radius: 50%;
+ 	margin-left: -60px;
+}
+
+
+#all-lid{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.oval-lid1{
+  height: 60px;
+  width: 110px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin:50px;
+  top:80px;
+  position:fixed;
+
+  animation: exampleall 1s;
+  animation-iteration-count: infinite;
+  margin-top:-90px;
+}
+
+.oval-lid2{
+  height: 60px;
+  width: 110px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin:50px;
+  top:80px;
+  left:205px;
+  position:fixed;
+
+  animation: exampleall 1s;
+  animation-iteration-count: infinite;
+  margin-top:-90px;
+}
+.oval-lid3{
+  height: 60px;
+  width: 110px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin:50px;
+  top:80px;
+  left:405px;
+  position:fixed;
+
+  animation: exampleall 1s;
+  animation-iteration-count: infinite;
+  margin-top:-90px;
+}
+.oval-lid4{
+  height: 60px;
+  width: 110px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin:50px;
+  top:80px;
+  left:605px;
+  position:fixed;
+
+  animation: exampleall 1s;
+  animation-iteration-count: infinite;
+  margin-top:-90px;
+}
+.oval-lid5{
+  height: 60px;
+  width: 110px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin:50px;
+  top:80px;
+  left:805px;
+  position:fixed;
+
+  animation: exampleall 1s;
+  animation-iteration-count: infinite;
+  margin-top:-90px;
+}
+.oval-lid6{
+  height: 60px;
+  width: 110px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin:50px;
+  top:80px;
+  left:1005px;
+  position:fixed;
+
+  animation: exampleall 1s;
+  animation-iteration-count: infinite;
+  margin-top:-90px;
+}
+.oval-lid7{
+  height: 60px;
+  width: 110px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin:50px;
+  top:80px;
+  left:1205px;
+  position:fixed;
+
+  animation: exampleall 1s;
+  animation-iteration-count: infinite;
+  margin-top:-90px;
+}
+.oval-lid8{
+  height: 60px;
+  width: 110px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin:50px;
+  top:80px;
+  left:1405px;
+  position:fixed;
+
+  animation: exampleall 1s;
+  animation-iteration-count: infinite;
+  margin-top:-90px;
+}
+
+
+
+.oval-lid11{
+  height: 60px;
+  width: 110px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin:50px;
+  top:230px;
+  position:fixed;
+
+  animation: examplealll 2s;
+  animation-iteration-count: infinite;
+  margin-top:-90px;
+}
+
+.oval-lid12{
+  height: 60px;
+  width: 110px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin:50px;
+  top:230px;
+  left:205px;
+  position:fixed;
+
+  animation: examplealll 1s;
+  animation-iteration-count: infinite;
+  margin-top:-90px;
+}
+.oval-lid13{
+  height: 60px;
+  width: 110px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin:50px;
+  top:230px;
+  left:405px;
+  position:fixed;
+
+  animation: examplealll 1s;
+  animation-iteration-count: infinite;
+  margin-top:-90px;
+}
+.oval-lid14{
+  height: 60px;
+  width: 110px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin:50px;
+  top:230px;
+  left:605px;
+  position:fixed;
+
+  animation: examplealll 2s;
+  animation-iteration-count: infinite;
+  margin-top:-90px;
+}
+.oval-lid15{
+  height: 60px;
+  width: 110px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin:50px;
+  top:230px;
+  left:805px;
+  position:fixed;
+
+  animation: examplealll 1s;
+  animation-iteration-count: infinite;
+  margin-top:-90px;
+}
+.oval-lid16{
+  height: 60px;
+  width: 110px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin:50px;
+  top:230px;
+  left:1005px;
+  position:fixed;
+
+  animation: examplealll 2s;
+  animation-iteration-count: infinite;
+  margin-top:-90px;
+}
+.oval-lid17{
+  height: 60px;
+  width: 110px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin:50px;
+  top:230px;
+  left:1205px;
+  position:fixed;
+
+  animation: examplealll 1s;
+  animation-iteration-count: infinite;
+  margin-top:-90px;
+}
+.oval-lid18{
+  height: 60px;
+  width: 110px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin:50px;
+  top:230px;
+  left:1405px;
+  position:fixed;
+
+  animation: examplealll 3s;
+  animation-iteration-count: infinite;
+  margin-top:-90px;
+}
+
+@-webkit-keyframes example {
+  0%   {background-color: #000000;}
+  25%  {background-color: #ffffff;}
+  50%  {background-color: #000000;}
+  75%  {background-color: #ffffff;}
+  100% {background-color: #000000;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  0%   {background-color: #000000;}
+  25%  {background-color: #ffffff;}
+  50%  {background-color: #000000;}
+  75%  {background-color: #ffffff;}
+  100% {background-color: #000000;}
+}
+
+
+@-webkit-keyframes example1 {
+  0%   {background-color: #000000;}
+  20%  {background-color: #5a5b5b;}
+  40%  {background-color: #000000;}
+  60%  {background-color: #cc363e;}
+  80%  {background-color: #000000;}
+  90%  {background-color: #56a571;}
+  100%  {background-color: #000000;}
+  
+}
+
+/* Standard syntax */
+@keyframes example1 {
+  0%   {background-color: #000000;}
+  20%  {background-color: #5a5b5b;}
+  30%  {background-color: #000000;}
+  60%  {background-color: #cc363e;}
+  80%  {background-color: #000000;}
+  90%  {background-color: #56a571;} 
+  100% {background-color: #000000;}
+}
+
+
+@keyframes exampleall {
+  0%   {border-top: 0px solid #ffffff; bottom: :0px; top:150px;}
+  
+  50%  {border-top: 0px solid #ffffff; bottom: :150px; top:0px;}
+  100% {border-top: 0px solid #ffffff; bottom: :0px; top:150px;}
+  
+  
+}
+
+@keyframes examplealll {
+  0%   {border-top: 0px solid #ffffff; bottom: :0px; top:300px;}
+  
+  50%  {border-top: 0px solid #ffffff; bottom: :300px; top:0px;}
+  100% {border-top: 0px solid #ffffff; bottom: :0px; top:300px;}
+  
+  
+}

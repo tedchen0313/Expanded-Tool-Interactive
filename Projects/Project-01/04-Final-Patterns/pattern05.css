@@ -1,0 +1,72 @@
+body{
+	background-color:#EBFF2E;
+}
+
+					
+#container{
+	display: flex;
+	flex-direction:row;
+	flex-wrap: nowrap;
+	justify-content:center;
+	justify-content: space-around;
+	padding:10px 0px 30px 0px;
+}
+
+.circle-1{
+	width:100px;
+	height:100px;
+	background:#AEDCF6;
+	border-radius:50%;
+	-webkit-box-shadow: 20px 20px 0px 0px rgb(0,0,0,1);
+	-moz-box-shadow: 20px 20px 0px 0px rgb(0,0,0,1);
+	-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+  	animation-duration: 10s;
+	box-shadow: 20px 20px 0px 0px rgb(0,0,0,1);
+}
+
+.circle-1:hover{
+	-webkit-animation-name: big; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+  	animation-duration: 10s;
+	}
+
+
+@-webkit-keyframes big {
+  0%   {width:100px;  height:100px;}
+  25%  {width:120px;  height:120px;}
+  50%  {width:200px;  height:200px;}
+  75%  {width:400px;  height:400px;}
+  100% {width:1000px;  height:1000px;}
+}
+
+/* Standard syntax */
+@keyframes big {
+  0%   {width:100px;  height:100px;}
+  25%  {width:120px;  height:120px;}
+  50%  {width:200px;  height:200px;}
+  75%  {width:400px;  height:400px;}
+  100% {width:1000px;  height:1000px;}
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  0%   {background-color: #6e6ce5;}
+  25%  {background-color: #6ccfe5;}
+  50%  {background-color: #6ce5c8;}
+  75%  {background-color: #b5c2ea;}
+  100% {background-color: #e5976c;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  0%   {background-color: #6e6ce5;}
+  25%  {background-color: #6ccfe5;}
+  50%  {background-color: #6ce5c8;}
+  75%  {background-color: #b5c2ea;}
+  100% {background-color: #e5976c;}
+}
+}
+
+
