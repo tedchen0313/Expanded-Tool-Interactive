@@ -1,0 +1,371 @@
+@import url();
+
+body {
+
+	
+}
+
+/* Text
+-------------------------------------------------- */
+
+
+.circle{
+		width: 500px;
+		height: 500px;
+		background-image: linear-gradient(to right, rgba(171,169,144,0), rgba(255,137,137,1));
+		position: absolute;
+		border-radius: 50%;
+		top: 70px;
+		left: 500px;	
+	}
+
+.square{
+		width: 1800px;
+		height: 200px;
+		background-color: #6C71FF;
+		position: absolute;
+		top:690px;
+		left: 0px;	
+		opacity: 0.5;
+	}
+.square1{
+		width: 1300px;
+		height: 30px;
+		background-color: #A2DAFF;
+		position: absolute;
+		top:0px;
+		left: 0px;	
+		opacity: 0.5;
+	}
+.square2{
+		width: 200px;
+		height: 350px;
+		background-color: #3B9DE8;
+		position: absolute;
+		top:0px;
+		left: 0px;	
+		opacity: 0.5;
+	}
+
+.square3{
+		width: 300px;
+		height: 520px;
+		background-color: #5462A5;
+		position: absolute;
+		top:0px;
+		left: 1400px;	
+		opacity: 0.5;
+	}
+.square4{
+		width: 220px;
+		height: 220px;
+		background-color: #8670F3;
+		position: absolute;
+		top:0px;
+		left: 1000px;
+		opacity: 0.5;	
+	}
+.mosaic1{
+		width: 100px;
+		height: 100px;
+		background-color: #ffffff;
+		position: absolute;
+		top:200px;
+		left: 350px;	
+		opacity: 0.9;
+	}
+
+.mosaic2{
+		width: 110px;
+		height: 110px;
+		background-color: #ffffff;
+		position: absolute;
+		top:250px;
+		left: 290px;	
+		opacity: 0.9;
+	}
+.mosaic3{
+		width: 100px;
+		height: 100px;
+		background-color: #ffffff;
+		position: absolute;
+		top:280px;
+		left: 340px;
+		opacity: 0.9;	
+	}
+
+
+
+/* Image
+-------------------------------------------------- */
+.image1{
+	background-image: url(images/screen.png);
+	
+	opacity: 1;
+}
+.image2{
+	background-image: url(images/ipad.png);
+	
+	opacity: 0;
+}
+.image3{
+	background-image: url(images/mobile.png);
+	
+	opacity: 0;
+
+}
+img{
+	width: 2000px;
+	margin-left:-250px;
+	margin-top:-1100px;
+	position: relative;
+}
+
+/* iPad 
+-------------------------------------------------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+  /* text */
+body {
+	
+}
+
+  /* image */
+.circle{
+		width: 500px;
+		height: 500px;
+		background-image: linear-gradient(to right, rgba(131,16,14,0), rgba(141,255,164,1));
+		position: absolute;
+		border-radius: 50%;
+		top: 180px;
+		left: 240px;		
+	}
+.square{
+		width: 1800px;
+		height: 200px;
+		background-color: #FAFF44;
+		position: absolute;
+		top:750px;
+		left: 0px;	
+	}
+
+.square1{
+		width: 1300px;
+		height: 50px;
+		background-color: #FFFF7F;
+		position: absolute;
+		top:0px;
+		left: 0px;	
+		opacity: 0.5;
+	}
+.square2{
+		width: 70px;
+		height: 700px;
+		background-color: #DEDE5E;
+		position: absolute;
+		top:0px;
+		left: 0px;	
+		opacity: 0.5;
+	}
+
+.square3{
+		width: 300px;
+		height: 520px;
+		background-color: #FFE077;
+		position: absolute;
+		top:0px;
+		left: 800px;	
+		opacity: 0.5;
+	}
+.square4{
+		width: 220px;
+		height: 220px;
+		background-color: #FFCF2F;
+		position: absolute;
+		top:0px;
+		left: 600px;
+		opacity: 0.5;	
+	}
+
+.image1{
+	background-image: url(images/screen.png);
+	
+	
+	opacity: 0;
+}
+.image2{
+	background-image: url(images/ipad.png);
+	
+	
+	opacity: 1;
+}
+.image3{
+	background-image: url(images/mobile.png);
+	
+	
+	opacity: 0;
+
+}
+
+img{
+	width: 1400px;
+	margin-left:-300px;
+	margin-top:-1350px;
+}
+
+.mosaic1{
+		width: 100px;
+		height: 100px;
+		background-color: #ffffff;
+		position: absolute;
+		top:160px;
+		left: 90px;	
+		opacity: 0.9;
+	}
+
+.mosaic2{
+		width: 110px;
+		height: 110px;
+		background-color: #ffffff;
+		position: absolute;
+		top:210px;
+		left: 80px;	
+		opacity: 0.9;
+	}
+.mosaic3{
+		width: 100px;
+		height: 100px;
+		background-color: #ffffff;
+		position: absolute;
+		top:230px;
+		left: 140px;
+		opacity: 0.9;	
+	}
+
+
+}
+
+/* Mobile
+-------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+
+
+body {
+	background-image: url('images/mobile.png'); 
+	
+}
+  /* text */
+
+  /* image */
+.circle{
+		width: 500px;
+		height: 500px;
+		background-image: linear-gradient(to right, rgba(31,16,14,0), rgba(255,251,108,1));
+		position: absolute;
+		border-radius: 50%;
+		top: 180px;
+		left: 140px;		
+	}
+
+.square{
+		width: 1800px;
+		height: 200px;
+		background-color: #FF5A5A;
+		position: absolute;
+		top:750px;
+		left: 0px;	
+	}
+
+.square1{
+		width: 1300px;
+		height: 80px;
+		background-color: #FF2F67;
+		position: absolute;
+		top:0px;
+		left: 0px;	
+		opacity: 0.5;
+	}
+.square2{
+		width: 70px;
+		height: 700px;
+		background-color: #E20540;
+		position: absolute;
+		top:0px;
+		left: 0px;	
+		opacity: 0.5;
+	}
+
+.square3{
+		width: 300px;
+		height: 520px;
+		background-color: #C45D4D;
+		position: absolute;
+		top:0px;
+		left: 650px;	
+		opacity: 0.5;
+	}
+.square4{
+		width: 220px;
+		height: 220px;
+		background-color: #C45D4D;
+		position: absolute;
+		top:0px;
+		left: 550px;
+		opacity: 0.5;	
+	}
+
+.mosaic1{
+		width: 100px;
+		height: 100px;
+		background-color: #ffffff;
+		position: absolute;
+		top:150px;
+		left: 100px;	
+		opacity: 0.9;
+	}
+
+.mosaic2{
+		width: 110px;
+		height: 110px;
+		background-color: #ffffff;
+		position: absolute;
+		top:170px;
+		left: 140px;	
+		opacity: 0.9;
+	}
+.mosaic3{
+		width: 100px;
+		height: 100px;
+		background-color: #ffffff;
+		position: absolute;
+		top:190px;
+		left: 170px;
+		opacity: 0.9;	
+	}
+
+.image1{
+	background-image: url(images/screen.png);
+
+	opacity: 0;
+}
+.image2{
+	background-image: url(images/ipad.png);
+
+	opacity: 0;
+}
+.image3{
+	background-image: url(images/mobile.png);
+
+	opacity: 1;
+
+}
+img{
+	width: 1500px;
+	margin-left:-530px;
+	margin-top:-1680px;
+}
+
+}
+
+
