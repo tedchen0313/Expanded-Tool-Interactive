@@ -1,0 +1,1129 @@
+.circle{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 10px;
+
+}
+
+.square1{
+
+	width: 60px;
+	height: 80px;
+	background-color: #EA907D;
+	
+	position: absolute;
+	top: 140px;
+	left:80px;
+}
+
+.square{
+
+	width: 60px;
+	height: 60px;
+	background-color: #EA907D;
+	margin-top: -150px;
+	margin-left: 70px;
+	position: absolute;
+	top: 210px;
+}
+
+.A:hover>.square{
+	background-color: #ffffff;
+}
+
+.A:hover>.square1{
+	background-color: #ffffff;
+}
+
+.circleB{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 10px;
+	left:220px;
+
+}
+
+
+.circleB:hover{
+	opacity: 0;
+}
+
+
+
+.squareB2{
+
+	width: 60px;
+	height: 60px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 40px;
+	left:300px;
+}
+
+.squareB3{
+
+	width: 60px;
+	height: 60px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 110px;
+	left:300px;
+}
+.B:hover>.squareB2{
+	background-color: #ffffff;
+}
+.B:hover>.squareB3{
+	background-color: #ffffff;
+}
+
+.circleC{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 10px;
+	left:430px;
+
+}
+
+
+.squareC1{
+
+	width: 100px;
+	height: 100px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 60px;
+	left:530px;
+}
+.C:hover>.squareC1{
+	background-color: #ffffff;
+}
+
+.circleD{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 10px;
+	left:640px;
+
+}
+
+.D:hover>.squareD2{
+	background-color: #ffffff;
+}
+
+.squareD2{
+
+	width: 80px;
+	height: 80px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 50px;
+	left:720px;
+}
+
+.circleE{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 10px;
+	left:850px;
+
+}
+
+
+
+.E:hover>.squareE1{
+	background-color: #ffffff;
+}
+.E:hover>.squareE2{
+	background-color: #ffffff;
+}
+.squareE1{
+
+	width: 80px;
+	height: 30px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 60px;
+	left:970px;
+}
+
+.squareE2{
+
+	width: 80px;
+	height: 30px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 110px;
+	left:970px;
+}
+
+.circleF{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 10px;
+	left:1060px;
+
+}
+
+.F:hover>.squareF1{
+	background-color: #ffffff;
+}
+.F:hover>.squareF2{
+	background-color: #ffffff;
+}
+.squareF1{
+
+	width: 80px;
+	height: 30px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 60px;
+	left:1180px;
+}
+
+.squareF2{
+
+	width: 80px;
+	height: 100px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 110px;
+	left:1180px;
+}
+.ball{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #EA907D;
+	opacity: 1;
+	position: absolute;
+	top: 10px;
+	left:1270px;
+
+}
+
+.circleG{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 220px;
+	left:10px;
+
+}
+
+.G:hover>.squareG1{
+	background-color: #ffffff;
+}
+.G:hover>.squareG2{
+	background-color: #ffffff;
+}
+.G:hover>.squareG3{
+	background-color: #ffffff;
+}
+.squareG1{
+
+	width: 100px;
+	height: 30px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 250px;
+	left:110px;
+}
+
+.squareG2{
+
+	width: 30px;
+	height: 80px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 250px;
+	left:110px;
+}
+
+.squareG3{
+
+	width: 60px;
+	height: 30px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 300px;
+	left:110px;
+}
+.ball2{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #EA907D;
+	opacity: 1;
+	position: absolute;
+	top: 220px;
+	left:220px;
+}
+
+.circleH{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 220px;
+	left:430px;
+
+}
+
+.H:hover>.squareH1{
+	background-color: #ffffff;
+}
+.H:hover>.squareH2{
+	background-color: #ffffff;
+}
+
+.squareH1{
+
+	width: 60px;
+	height: 60px;
+	background-color: #EA907D;
+	
+	position: absolute;
+	top: 210px;
+	left:500px;
+}
+
+.squareH2{
+
+	width: 60px;
+	height: 80px;
+	background-color: #EA907D;
+	
+	position: absolute;
+	top: 340px;
+	left:500px;
+}
+
+.circleI{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 220px;
+	left:640px;
+
+}
+
+.I:hover>.squareI1{
+	background-color: #ffffff;
+}
+.I:hover>.squareI2{
+	background-color: #ffffff;
+}
+
+.squareI1{
+
+	width: 80px;
+	height: 60px;
+	background-color: #EA907D;
+	
+	position: absolute;
+	top: 280px;
+	left:630px;
+}
+
+.squareI2{
+
+	width: 80px;
+	height: 60px;
+	background-color: #EA907D;
+	
+	position: absolute;
+	top: 280px;
+	left:770px;
+}
+
+.ball3{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #EA907D;
+	opacity: 1;
+	position: absolute;
+	top: 220px;
+	left:850px;
+}
+
+.circleJ{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 220px;
+	left:1060px;
+
+}
+
+.J:hover>.squareJ1{
+	background-color: #ffffff;
+}
+
+.squareJ1{
+
+	width: 80px;
+	height: 80px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 250px;
+	left:1060px;
+}
+
+.circleK{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 220px;
+	left:1270px;
+
+}
+
+
+
+.K:hover>.squareK1{
+	background-color: #ffffff;
+}
+.K:hover>.squareK2{
+	background-color: #ffffff;
+}
+.K:hover>.squareK3{
+	background-color: #ffffff;
+}
+
+.squareK1{
+
+	width: 30px;
+	height: 60px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 220px;
+	left:1360px;
+}
+.squareK2{
+
+	width: 30px;
+	height: 90px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 340px;
+	left:1360px;
+}
+.squareK3{
+
+	width: 70px;
+	height: 30px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 295px;
+	left:1410px;
+}
+
+.circleL{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 430px;
+	left:10px;
+
+}
+
+
+.L:hover>.squareL1{
+	background-color: #ffffff;
+}
+
+.squareL1{
+
+	width: 100px;
+	height: 140px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 430px;
+	left:110px;
+}
+
+.circleM{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 430px;
+	left:220px;
+
+}
+
+.M:hover>.squareM1{
+	background-color: #ffffff;
+}
+.M:hover>.squareM2{
+	background-color: #ffffff;
+}
+
+.squareM1{
+
+	width: 30px;
+	height: 80px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 550px;
+	left:275px;
+}
+.squareM2{
+
+	width: 30px;
+	height: 80px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 550px;
+	left:345px;
+}
+.ball4{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #EA907D;
+	opacity: 1;
+	position: absolute;
+	top: 430px;
+	left:430px;
+}
+
+.circleN{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 430px;
+	left:640px;
+
+}
+
+.N:hover>.squareN1{
+	background-color: #ffffff;
+}
+.N:hover>.squareN2{
+	background-color: #ffffff;
+}
+.squareN1{
+
+	width: 30px;
+	height: 100px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 530px;
+	left:690px;
+}
+.squareN2{
+
+	width: 30px;
+	height: 80px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 430px;
+	left:760px;
+}
+
+.circleO{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 430px;
+	left:850px;
+
+}
+
+.O:hover>.squareO1{
+	background-color: #ffffff;
+}
+
+.squareO1{
+
+	width: 80px;
+	height: 80px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 485px;
+	left:910px;
+}
+
+.circleP{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 430px;
+	left:1060px;
+
+}
+
+.P:hover>.squareP1{
+	background-color: #ffffff;
+}
+.P:hover>.squareP2{
+	background-color: #ffffff;
+}
+
+.squareP1{
+	width: 60px;
+	height: 60px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 480px;
+	left:1150px;
+}
+.squareP2{
+	width: 30px;
+	height: 110px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 515px;
+	left: 1090px;
+}
+
+.circleQ{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 430px;
+	left:1270px;
+
+}
+
+.Q:hover>.squareQ1{
+	background-color: #ffffff;
+}
+.Q:hover>.squareQ2{
+	background-color: #ffffff;
+}
+.squareQ1{
+	width: 40px;
+	height: 80px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 480px;
+	left:1320px;
+}
+.squareQ2{
+	width: 80px;
+	height: 40px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 480px;
+	left: 1320px;
+}
+
+
+.ball5{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #EA907D;
+	opacity: 1;
+	position: absolute;
+	top: 640px;
+	left:10px;
+}
+
+.circleR{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 640px;
+	left:220px;
+
+}
+
+.R:hover>.squareR1{
+	background-color: #ffffff;
+}
+.R:hover>.squareR2{
+	background-color: #ffffff;
+}
+.R:hover>.squareR3{
+	background-color: #ffffff;
+}
+.squareR1{
+	width: 60px;
+	height: 60px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 680px;
+	left:310px;
+}
+.squareR2{
+	width: 60px;
+	height: 80px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 760px;
+	left: 310px;
+}
+.squareR3{
+	width: 30px;
+	height: 20px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 740px;
+	left: 390px;
+}
+
+.circleS{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 640px;
+	left:430px;
+
+}
+
+.S:hover>.squareS1{
+	background-color: #ffffff;
+}
+.S:hover>.squareS2{
+	background-color: #ffffff;
+}
+
+.squareS1{
+	width: 80px;
+	height: 30px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 680px;
+	left:560px;
+}
+.squareS2{
+	width: 80px;
+	height: 50px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 740px;
+	left: 430px;
+}
+.ball6{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #EA907D;
+	opacity: 1;
+	position: absolute;
+	top: 640px;
+	left:640px;
+}
+
+.circleT{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 640px;
+	left:850px;
+
+}
+
+
+.T:hover>.squareT1{
+	background-color: #ffffff;
+}
+.T:hover>.squareT2{
+	background-color: #ffffff;
+}
+
+.squareT1{
+	width: 80px;
+	height: 80px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 760px;
+	left:850px;
+}
+.squareT2{
+	width: 80px;
+	height: 80px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 760px;
+	left: 970px;
+}
+
+.ball7{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #EA907D;
+	opacity: 1;
+	position: absolute;
+	top: 640px;
+	left:1060px;
+}
+
+.circleU{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 640px;
+	left:1270px;
+
+}
+
+
+.U:hover>.squareU1{
+	background-color: #ffffff;
+}
+.squareU1{
+	width: 40px;
+	height: 80px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 640px;
+	left:1350px;
+}
+.circleV{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 850px;
+	left:10px;
+
+}
+
+.V:hover>.squareV1{
+	background-color: #ffffff;
+}
+.V:hover>.squareV2{
+	border-bottom: 90px solid #ffffff;
+}
+.V:hover>.squareV3{
+	border-bottom: 90px solid #ffffff;
+}
+.squareV1{
+	width: 40px;
+	height: 80px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 850px;
+	left:90px;
+}
+.squareV2{
+	width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 90px solid #EA907D;
+	position: absolute;
+	top: 950px;
+	left:-50px;
+}
+.squareV3{
+	width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 90px solid #EA907D;
+	position: absolute;
+	top: 950px;
+	left:150px;
+}
+
+.circleW{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 850px;
+	left:220px;
+
+}
+
+.W:hover>.squareW1{
+	background-color: #ffffff;
+}
+.W:hover>.squareW2{
+	background-color: #ffffff;
+}
+.W:hover>.squareW3{
+	background-color: #ffffff;
+}
+
+.squareW1{
+	width: 30px;
+	height: 80px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 850px;
+	left:260px;
+}
+.squareW2{
+	width: 30px;
+	height: 80px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 850px;
+	left:350px;
+}
+.squareW3{
+	width: 30px;
+	height: 80px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 980px;
+	left:305px;
+}
+.ball8{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #EA907D;
+	opacity: 1;
+	position: absolute;
+	top: 850px;
+	left:430px;
+}
+
+.circleX{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 850px;
+	left:640px;
+
+}
+
+.X:hover>.squareX1{
+	background-color: #ffffff;
+}
+.X:hover>.squareX2{
+	background-color: #ffffff;
+}
+.X:hover>.squareX3{
+	background-color: #ffffff;
+}
+.X:hover>.squareX4{
+	background-color: #ffffff;
+}
+
+.squareX1{
+	width: 60px;
+	height: 30px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 930px;
+	left:640px;
+}
+.squareX2{
+	width: 60px;
+	height: 30px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 930px;
+	left:780px;
+}
+.squareX3{
+	width: 50px;
+	height: 50px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 850px;
+	left:715px;
+}
+.squareX4{
+	width: 50px;
+	height: 80px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 980px;
+	left:715px;
+}
+
+
+.circleY{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 850px;
+	left:850px;
+
+}
+
+
+
+.Y:hover>.squareY1{
+	background-color: #ffffff;
+}
+.Y:hover>.squareY2{
+	background-color: #ffffff;
+}
+.Y:hover>.squareY3{
+	background-color: #ffffff;
+}
+.squareY1{
+	width: 80px;
+	height: 80px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 970px;
+	left:850px;
+}
+.squareY2{
+	width: 80px;
+	height: 80px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 970px;
+	left: 970px;
+}
+.squareY3{
+	width: 40px;
+	height: 60px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 850px;
+	left: 930px;
+}
+
+.circleZ{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 850px;
+	left:1060px;
+
+}
+
+.Z:hover>.squareZ1{
+	background-color: #ffffff;
+}
+.Z:hover>.squareZ2{
+	background-color: #ffffff;
+}
+.squareZ1{
+	width: 80px;
+	height: 30px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 900px;
+	left:1060px;
+}
+.squareZ2{
+	width: 80px;
+	height: 50px;
+	background-color: #EA907D;
+	position: absolute;
+	top: 960px;
+	left: 1180px;
+}
+
+.ball9{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #EA907D;
+	opacity: 1;
+	position: absolute;
+	top: 850px;
+	left:1270px;
+}

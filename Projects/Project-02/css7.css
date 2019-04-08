@@ -1,0 +1,1069 @@
+.circle{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	top: 10px;
+
+}
+
+
+.square1{
+
+	width: 60px;
+	height: 80px;
+	background-color: #ffffff;	
+	position: absolute;
+	top: 140px;
+	left:80px;
+}
+
+.square{
+
+	width: 60px;
+	height: 60px;
+	background-color: #ffffff;
+	margin-top: -150px;
+	margin-left: 70px;
+	position: absolute;
+	top: 210px;
+}
+
+.circle:hover{
+	-webkit-animation: rotation 2s infinite linear;
+  	
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform:  rotate(0deg);
+				
+		}
+		to {
+				-webkit-transform:  rotate(359deg);
+				
+		}
+}
+
+.circleB{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 10px;
+	left:220px;
+}
+
+.squareB2{
+
+	width: 60px;
+	height: 60px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 30px;
+	left:80px;
+}
+
+.squareB3{
+
+	width: 60px;
+	height: 60px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 100px;
+	left:80px;
+}
+
+.circleB:hover{
+	-webkit-animation: rotation 2s infinite linear;
+  	
+}
+
+.circleC{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 10px;
+	left:430px;
+
+}
+
+.circleC:hover{
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+.squareC1{
+
+	width: 100px;
+	height: 100px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 50px;
+	left:100px;
+}
+
+.circleD{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 10px;
+	left:640px;
+
+}
+
+.circleD:hover{
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+
+.squareD2{
+
+	width: 80px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 40px;
+	left:80px;
+}
+
+.circleE{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 10px;
+	left:850px;
+
+}
+
+
+.circleE:hover{
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+.squareE1{
+
+	width: 80px;
+	height: 30px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 50px;
+	left:120px;
+}
+
+.squareE2{
+
+	width: 80px;
+	height: 30px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 100px;
+	left:120px;
+}
+
+.circleF{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 10px;
+	left:1060px;
+
+}
+
+
+.circleF:hover{
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+.squareF1{
+
+	width: 80px;
+	height: 30px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 50px;
+	left:120px;
+}
+
+.squareF2{
+
+	width: 80px;
+	height: 100px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 100px;
+	left:120px;
+}
+.ball{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #EA907D;
+	opacity: 1;
+	position: absolute;
+	top: 10px;
+	left:1270px;
+
+}
+
+.circleG{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 220px;
+	left:10px;
+
+}
+
+
+.circleG:hover{
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+.squareG1{
+
+	width: 100px;
+	height: 30px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 30px;
+	left:100px;
+}
+
+.squareG2{
+
+	width: 30px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 30px;
+	left:100px;
+}
+
+.squareG3{
+
+	width: 60px;
+	height: 30px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 80px;
+	left:100px;
+}
+.ball2{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #EA907D;
+	opacity: 1;
+	position: absolute;
+	top: 220px;
+	left:220px;
+}
+
+.circleH{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 220px;
+	left:430px;
+
+}
+
+
+.circleH:hover{
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+.squareH1{
+
+	width: 60px;
+	height: 60px;
+	background-color: #ffffff;
+	
+	position: absolute;
+	top: -10px;
+	left:70px;
+}
+
+.squareH2{
+
+	width: 60px;
+	height: 80px;
+	background-color: #ffffff;
+	
+	position: absolute;
+	top: 120px;
+	left:70px;
+}
+
+.circleI{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 220px;
+	left:640px;
+
+}
+
+.circleI:hover{
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+.squareI1{
+
+	width: 80px;
+	height: 60px;
+	background-color: #ffffff;
+	
+	position: absolute;
+	top: 60px;
+	left:-10px;
+}
+
+.squareI2{
+
+	width: 80px;
+	height: 60px;
+	background-color: #ffffff;
+	
+	position: absolute;
+	top: 60px;
+	left:130px;
+}
+
+.ball3{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #EA907D;
+	opacity: 1;
+	position: absolute;
+	top: 220px;
+	left:850px;
+}
+
+.circleJ{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 220px;
+	left:1060px;
+
+}
+
+
+.circleJ:hover{
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+.squareJ1{
+
+	width: 80px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 30px;
+	left:0px;
+}
+
+.circleK{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 220px;
+	left:1270px;
+
+}
+
+
+.circleK:hover{
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+.squareK1{
+
+	width: 30px;
+	height: 60px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 0px;
+	left:90px;
+}
+.squareK2{
+
+	width: 30px;
+	height: 90px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 120px;
+	left:90px;
+}
+.squareK3{
+
+	width: 70px;
+	height: 30px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 75px;
+	left:140px;
+}
+
+.circleL{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 430px;
+	left:10px;
+
+}
+
+
+.circleL:hover{
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+.squareL1{
+
+	width: 100px;
+	height: 140px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 0px;
+	left:100px;
+}
+
+.circleM{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 430px;
+	left:220px;
+
+}
+
+
+.circleM:hover{
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+.squareM1{
+
+	width: 30px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 120px;
+	left:55px;
+}
+.squareM2{
+
+	width: 30px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 120px;
+	left:125px;
+}
+.ball4{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #EA907D;
+	opacity: 1;
+	position: absolute;
+	top: 430px;
+	left:430px;
+}
+
+.circleN{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 430px;
+	left:640px;
+
+}
+
+.circleN:hover{
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+.squareN1{
+
+	width: 30px;
+	height: 100px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 100px;
+	left:50px;
+}
+.squareN2{
+
+	width: 30px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 0px;
+	left:120px;
+}
+
+.circleO{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 430px;
+	left:850px;
+
+}
+
+
+.circleO:hover{
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+.squareO1{
+
+	width: 80px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 55px;
+	left:60px;
+}
+
+.circleP{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 430px;
+	left:1060px;
+
+}
+
+
+.circleP:hover{
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+.squareP1{
+	width: 60px;
+	height: 60px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 50px;
+	left:90px;
+}
+.squareP2{
+	width: 30px;
+	height: 110px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 85px;
+	left: 30px;
+}
+
+.circleQ{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 430px;
+	left:1270px;
+
+}
+
+
+.circleQ:hover{
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+.squareQ1{
+	width: 40px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 50px;
+	left:50px;
+}
+.squareQ2{
+	width: 80px;
+	height: 40px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+
+
+.ball5{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #EA907D;
+	opacity: 1;
+	position: absolute;
+	top: 640px;
+	left:10px;
+}
+
+.circleR{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 640px;
+	left:220px;
+
+}
+
+
+.circleR:hover{
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+.squareR1{
+	width: 60px;
+	height: 60px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 40px;
+	left:90px;
+}
+.squareR2{
+	width: 60px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 120px;
+	left: 90px;
+}
+.squareR3{
+	width: 30px;
+	height: 20px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 100px;
+	left: 170px;
+}
+
+.circleS{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 640px;
+	left:430px;
+
+}
+
+
+.circleS:hover{
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+.squareS1{
+	width: 80px;
+	height: 30px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 40px;
+	left:130px;
+}
+.squareS2{
+	width: 80px;
+	height: 50px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 100px;
+	left: 0px;
+}
+.ball6{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #EA907D;
+	opacity: 1;
+	position: absolute;
+	top: 640px;
+	left:640px;
+}
+
+.circleT{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 640px;
+	left:850px;
+
+}
+
+
+.circleT:hover{
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+.squareT1{
+	width: 80px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 120px;
+	left:0px;
+}
+.squareT2{
+	width: 80px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 120px;
+	left: 120px;
+}
+
+.ball7{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #EA907D;
+	opacity: 1;
+	position: absolute;
+	top: 640px;
+	left:1060px;
+}
+
+.circleU{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 640px;
+	left:1270px;
+
+}
+
+
+.circleU:hover{
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+.squareU1{
+	width: 40px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 0px;
+	left:80px;
+}
+.circleV{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 850px;
+	left:10px;
+
+}
+
+
+.circleV:hover{
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+.squareV1{
+	width: 40px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 0px;
+	left:80px;
+}
+.squareV2{
+	width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 90px solid white;
+	position: absolute;
+	top: 100px;
+	left:-60px;
+}
+.squareV3{
+	width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 90px solid white;
+	position: absolute;
+	top: 100px;
+	left:140px;
+}
+
+.circleW{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 850px;
+	left:220px;
+
+}
+
+.circleW:hover{
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+.squareW1{
+	width: 30px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 0px;
+	left:40px;
+}
+.squareW2{
+	width: 30px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 0px;
+	left:130px;
+}
+.squareW3{
+	width: 30px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 120px;
+	left:85px;
+}
+.ball8{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #EA907D;
+	opacity: 1;
+	position: absolute;
+	top: 850px;
+	left:430px;
+}
+
+.circleX{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 850px;
+	left:640px;
+
+}
+
+
+.circleX:hover{
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+.squareX1{
+	width: 60px;
+	height: 30px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 80px;
+	left: 0px;
+}
+.squareX2{
+	width: 60px;
+	height: 30px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 80px;
+	left:140px;
+}
+.squareX3{
+	width: 50px;
+	height: 50px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 0px;
+	left:75px;
+}
+.squareX4{
+	width: 50px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 140px;
+	left:75px;
+}
+
+
+.circleY{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 850px;
+	left:850px;
+
+}
+
+
+.circleY:hover{
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+.squareY1{
+	width: 80px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 120px;
+	left:0px;
+}
+.squareY2{
+	width: 80px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 120px;
+	left: 120px;
+}
+.squareY3{
+	width: 40px;
+	height: 60px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 0px;
+	left: 80px;
+}
+
+.circleZ{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 850px;
+	left:1060px;
+
+}
+
+.circleZ:hover{
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+.squareZ1{
+	width: 80px;
+	height: 30px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+}
+.squareZ2{
+	width: 80px;
+	height: 50px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 110px;
+	left: 120px;
+}
+
+.ball9{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #EA907D;
+	opacity: 1;
+	position: absolute;
+	top: 850px;
+	left:1270px;
+}

@@ -1,0 +1,1686 @@
+.circle{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 10px;
+
+}
+.circle-2{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #ffffff 0%);
+	border-style: dotted;
+	border-color: #C8DE91;
+	opacity: 1;
+	position: absolute;
+	z-index: -40;
+}
+
+
+.circle:hover{
+	opacity: 1;
+	-webkit-animation-name: mov; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: infinite; 
+  	animation-duration: 5s;
+
+}
+@-webkit-keyframes mov {
+  0%   {left:10px;}
+  15%   {left:220px;}
+  30%  {left:430px;}
+  45%  {left:640px;}
+  60%  {left:860px;}
+  75% {left:1070px;}
+  100% {left:1280px;}
+}
+
+.square1{
+
+	width: 60px;
+	height: 80px;
+	background-color: #ffffff;
+	
+	position: absolute;
+	top: 140px;
+	left:80px;
+}
+
+.square{
+
+	width: 60px;
+	height: 60px;
+	background-color: #ffffff;
+	margin-top: -150px;
+	margin-left: 70px;
+	position: absolute;
+	top: 210px;
+}
+
+.circleB{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #ffffff 0%, 0);
+	border-style: dotted;
+	border-color: #C8DE91;
+	z-index: 20;
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 10px;
+	left:220px;
+
+}
+
+
+.circleB:hover{
+	opacity: 0;
+}
+
+.circle-B{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 10px;
+	left:220px;
+	-webkit-animation-name: dis; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: infinite; 
+  	animation-duration: 5s;
+
+}
+
+.squareB2{
+
+	width: 60px;
+	height: 60px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 40px;
+	left:300px;
+}
+
+.squareB3{
+
+	width: 60px;
+	height: 60px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 110px;
+	left:300px;
+}
+
+.circleC{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #ffffff 0%, 0);
+	border-style: dotted;
+	border-color: #C8DE91;
+	z-index: 20;
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 10px;
+	left:430px;
+
+}
+
+.circleC:hover{
+	opacity: 0;
+}
+
+.circle-C{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 10px;
+	left:430px;
+	-webkit-animation-name: dis; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: infinite; 
+  	animation-duration: 5s;
+}
+
+.squareC1{
+
+	width: 100px;
+	height: 100px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 60px;
+	left:530px;
+}
+
+.circleD{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #ffffff 0%, 0);
+	border-style: dotted;
+	border-color: #C8DE91;
+	z-index: 20;
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 10px;
+	left:640px;
+
+}
+.circle-D{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 10px;
+	left:640px;
+	-webkit-animation-name: dis; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: infinite; 
+  	animation-duration: 5s;
+}
+
+
+.circleD:hover{
+	opacity: 0;
+}
+
+
+.squareD2{
+
+	width: 80px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 50px;
+	left:720px;
+}
+
+.circleE{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #ffffff 0%, 0);
+	border-style: dotted;
+	border-color: #C8DE91;
+	z-index: 20;
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 10px;
+	left:850px;
+
+}
+
+
+.circleE:hover{
+	opacity: 0;
+}
+
+.circle-E{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 10px;
+	left:850px;
+	-webkit-animation-name: dis; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: infinite; 
+  	animation-duration: 5s;
+}
+
+.squareE1{
+
+	width: 80px;
+	height: 30px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 60px;
+	left:970px;
+}
+
+.squareE2{
+
+	width: 80px;
+	height: 30px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 110px;
+	left:970px;
+}
+
+.circleF{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #ffffff 0%, 0);
+	border-style: dotted;
+	border-color: #C8DE91;
+	z-index: 20;
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 10px;
+	left:1060px;
+
+}
+
+
+.circleF:hover{
+	opacity: 0;
+}
+
+.circle-F{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 10px;
+	left:1060px;
+	-webkit-animation-name: dis; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: infinite; 
+  	animation-duration: 5s;
+}
+
+.squareF1{
+
+	width: 80px;
+	height: 30px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 60px;
+	left:1180px;
+}
+
+.squareF2{
+
+	width: 80px;
+	height: 100px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 110px;
+	left:1180px;
+}
+.ball{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border-style: dotted;
+	border-color: #EA907D;
+	opacity: 1;
+	position: absolute;
+	top: 10px;
+	left:1270px;
+
+}
+.balll{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #EA907D;
+	position: absolute;
+	top: 10px;
+	left:1270px;
+	opacity: 0;
+	transition: opacity 3s;
+}
+
+.circleG{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #ffffff 0%, 0);
+	border-style: dotted;
+	border-color: #C8DE91;
+	z-index: 20;
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 220px;
+	left:10px;
+
+}
+
+
+.circleG:hover{
+	opacity: 0;
+}
+
+.circle-G{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 220px;
+	left:10px;
+	-webkit-animation-name: dis; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: infinite; 
+  	animation-duration: 5s;
+}
+
+.squareG1{
+
+	width: 100px;
+	height: 30px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 250px;
+	left:110px;
+}
+
+.squareG2{
+
+	width: 30px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 250px;
+	left:110px;
+}
+
+.squareG3{
+
+	width: 60px;
+	height: 30px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 300px;
+	left:110px;
+}
+.ball2{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border-radius: 50%;
+	border-style: dotted;
+	border-color: #EA907D;
+	opacity: 1;
+	position: absolute;
+	top: 220px;
+	left:220px;
+}
+
+.circleH{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #ffffff 0%, 0);
+	border-style: dotted;
+	border-color: #C8DE91;
+	z-index: 20;
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 220px;
+	left:430px;
+
+}
+
+.circle-H{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 220px;
+	left:430px;
+	-webkit-animation-name: dis; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: infinite; 
+  	animation-duration: 5s;
+}
+
+
+.circleH:hover{
+	opacity: 0;
+}
+
+.squareH1{
+
+	width: 60px;
+	height: 60px;
+	background-color: #ffffff;
+	
+	position: absolute;
+	top: 210px;
+	left:500px;
+}
+
+.squareH2{
+
+	width: 60px;
+	height: 80px;
+	background-color: #ffffff;
+	
+	position: absolute;
+	top: 340px;
+	left:500px;
+}
+
+.circleI{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #ffffff 0%, 0);
+	border-style: dotted;
+	border-color: #C8DE91;
+	z-index: 20;
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 220px;
+	left:640px;
+
+}
+
+.circleI:hover{
+	opacity: 0;
+}
+
+.circle-I{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 220px;
+	left:640px;
+	-webkit-animation-name: dis; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: infinite; 
+  	animation-duration: 5s;
+}
+
+.squareI1{
+
+	width: 80px;
+	height: 60px;
+	background-color: #ffffff;
+	
+	position: absolute;
+	top: 280px;
+	left:630px;
+}
+
+.squareI2{
+
+	width: 80px;
+	height: 60px;
+	background-color: #ffffff;
+	
+	position: absolute;
+	top: 280px;
+	left:770px;
+}
+
+.ball3{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border-radius: 50%;
+	border-style: dotted;
+	border-color: #EA907D;
+	opacity: 1;
+	position: absolute;
+	top: 220px;
+	left:850px;
+}
+
+.circleJ{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #ffffff 0%, 0);
+	border-style: dotted;
+	border-color: #C8DE91;
+	z-index: 20;
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 220px;
+	left:1060px;
+
+}
+
+
+.circleJ:hover{
+	opacity: 0;
+}
+
+.circle-J{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 220px;
+	left:1060px;
+	-webkit-animation-name: dis; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: infinite; 
+  	animation-duration: 5s;
+}
+
+.squareJ1{
+
+	width: 80px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 250px;
+	left:1060px;
+}
+
+.circleK{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 220px;
+	left:1270px;
+	z-index: -20;
+
+}
+
+.circleK:hover{
+	opacity: 1;
+	-webkit-animation-name: movleft; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: infinite; 
+  	animation-duration: 5s;
+}
+
+@-webkit-keyframes movleft {
+  0%   {left:1280px;}
+  15%   {left:1070px;}
+  30%  {left:860px;}
+  45%  {left:640px;}
+  60%  {left:430px;}
+  75% {left:220px;}
+  100% {left:10px;}
+}
+
+.circle-K{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #ffffff 0%);
+	border-style: dotted;
+	border-color: #C8DE91;
+	opacity: 1;
+	position: absolute;
+	top: 220px;
+	left:1270px;
+	z-index: -40;
+}
+
+.squareK1{
+
+	width: 30px;
+	height: 60px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 220px;
+	left:1360px;
+}
+.squareK2{
+
+	width: 30px;
+	height: 90px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 340px;
+	left:1360px;
+}
+.squareK3{
+
+	width: 70px;
+	height: 30px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 295px;
+	left:1410px;
+}
+
+.circleL{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 430px;
+	left:10px;
+
+}
+
+
+.circleL:hover{
+	opacity: 1;
+	-webkit-animation-name: mov; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: infinite; 
+  	animation-duration: 5s;
+}
+
+.circle-L{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #ffffff 0%,0);
+	border-style: dotted;
+	border-color: #C8DE91;
+	opacity: 1;
+	position: absolute;
+	z-index: -20;
+	top: 430px;
+	left:10px;
+}
+
+
+
+.squareL1{
+
+	width: 100px;
+	height: 140px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 430px;
+	left:110px;
+}
+
+.circleM{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #ffffff 0%, 0);
+	border-style: dotted;
+	border-color: #C8DE91;
+	z-index: 20;
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 430px;
+	left:220px;
+
+}
+
+
+.circleM:hover{
+	opacity: 0;
+}
+
+.circle-M{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 430px;
+	left:220px;
+	-webkit-animation-name: dis; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: infinite; 
+  	animation-duration: 5s;
+}
+
+
+.squareM1{
+
+	width: 30px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 550px;
+	left:275px;
+}
+.squareM2{
+
+	width: 30px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 550px;
+	left:345px;
+}
+.ball4{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border-radius: 50%;
+	border-style: dotted;
+	border-color: #EA907D;
+	opacity: 1;
+	position: absolute;
+	top: 430px;
+	left:430px;
+}
+
+.circleN{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #ffffff 0%, 0);
+	border-style: dotted;
+	border-color: #C8DE91;
+	z-index: 20;
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 430px;
+	left:640px;
+
+}
+
+.circleN:hover{
+	opacity: 0;
+}
+
+.circle-N{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 430px;
+	left:640px;
+	-webkit-animation-name: dis; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: infinite; 
+  	animation-duration: 5s;
+}
+.squareN1{
+
+	width: 30px;
+	height: 100px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 530px;
+	left:690px;
+}
+.squareN2{
+
+	width: 30px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 430px;
+	left:760px;
+}
+
+.circleO{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #ffffff 0%, 0);
+	border-style: dotted;
+	border-color: #C8DE91;
+	z-index: 20;
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 430px;
+	left:850px;
+
+}
+
+
+.circleO:hover{
+	opacity: 0;
+}
+
+.circle-O{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 430px;
+	left:850px;
+	-webkit-animation-name: dis; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: infinite; 
+  	animation-duration: 5s;
+}
+.squareO1{
+
+	width: 80px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 485px;
+	left:910px;
+}
+
+.circleP{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #ffffff 0%, 0);
+	border-style: dotted;
+	border-color: #C8DE91;
+	z-index: 20;
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 430px;
+	left:1060px;
+
+}
+
+
+.circleP:hover{
+	opacity: 0;
+}
+
+.circle-P{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 430px;
+	left:1060px;
+	-webkit-animation-name: dis; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: infinite; 
+  	animation-duration: 5s;
+}
+
+
+.squareP1{
+	width: 60px;
+	height: 60px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 480px;
+	left:1150px;
+}
+.squareP2{
+	width: 30px;
+	height: 110px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 515px;
+	left: 1090px;
+}
+
+.circleQ{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #ffffff 0%, 0);
+	border-style: dotted;
+	border-color: #C8DE91;
+	z-index: 20;
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 430px;
+	left:1270px;
+
+}
+
+
+.circleQ:hover{
+	opacity: 0;
+}
+
+.circle-Q{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 430px;
+	left:1270px;
+	-webkit-animation-name: dis; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: infinite; 
+  	animation-duration: 5s;
+}
+
+.squareQ1{
+	width: 40px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 480px;
+	left:1320px;
+}
+.squareQ2{
+	width: 80px;
+	height: 40px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 480px;
+	left: 1320px;
+}
+
+
+.ball5{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border-radius: 50%;
+	border-style: dotted;
+	border-color: #EA907D;
+	opacity: 1;
+	position: absolute;
+	top: 640px;
+	left:10px;
+}
+
+.circleR{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #ffffff 0%,0);
+	border-style: dotted;
+	border-color: #C8DE91;
+	z-index: 20;
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 640px;
+	left:220px;
+
+}
+
+
+.circleR:hover{
+	opacity: 0;
+}
+
+.circle-R{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 640px;
+	left:220px;
+	-webkit-animation-name: dis; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: infinite; 
+  	animation-duration: 5s;
+}
+.squareR1{
+	width: 60px;
+	height: 60px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 680px;
+	left:310px;
+}
+.squareR2{
+	width: 60px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 760px;
+	left: 310px;
+}
+.squareR3{
+	width: 30px;
+	height: 20px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 740px;
+	left: 390px;
+}
+
+.circleS{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #ffffff 0%,0);
+	border-style: dotted;
+	border-color: #C8DE91;
+	z-index: 20;
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 640px;
+	left:430px;
+
+}
+
+
+.circleS:hover{
+	opacity: 0;
+}
+
+.circle-S{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 640px;
+	left:430px;
+	-webkit-animation-name: dis; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: infinite; 
+  	animation-duration: 5s;
+}
+
+.squareS1{
+	width: 80px;
+	height: 30px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 680px;
+	left:560px;
+}
+.squareS2{
+	width: 80px;
+	height: 50px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 740px;
+	left: 430px;
+}
+.ball6{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border-radius: 50%;
+	border-style: dotted;
+	border-color: #EA907D;
+	opacity: 1;
+	position: absolute;
+	top: 640px;
+	left:640px;
+}
+
+.circleT{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #ffffff 0%,0);
+	border-style: dotted;
+	border-color: #C8DE91;
+	z-index: 20;
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 640px;
+	left:850px;
+
+}
+
+
+.circleT:hover{
+	opacity: 0;
+}
+
+.circle-T{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 640px;
+	left:850px;
+	-webkit-animation-name: dis; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: infinite; 
+  	animation-duration: 5s;
+}
+
+.squareT1{
+	width: 80px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 760px;
+	left:850px;
+}
+.squareT2{
+	width: 80px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 760px;
+	left: 970px;
+}
+
+.ball7{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border-radius: 50%;
+	border-style: dotted;
+	border-color: #EA907D;
+	opacity: 1;
+	position: absolute;
+	top: 640px;
+	left:1060px;
+}
+
+.circleU{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 640px;
+	left:1270px;
+	z-index: -20;
+
+}
+.circle-U{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #ffffff 0%,0);
+	border-style: dotted;
+	border-color: #C8DE91;
+	opacity: 1;
+	position: absolute;
+	top: 640px;
+	left:1270px;
+	z-index: -40;
+}
+
+
+.circleU:hover{
+	opacity: 1;
+	-webkit-animation-name: movleft; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: infinite; 
+  	animation-duration: 5s;
+}
+
+.squareU1{
+	width: 40px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 640px;
+	left:1350px;
+}
+.circleV{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 850px;
+	left:10px;
+
+}
+
+
+.circleV:hover{
+	opacity: 1;
+	-webkit-animation-name: mov; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: infinite; 
+  	animation-duration: 5s;
+}
+
+.circle-V{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #ffffff 0%,0);
+	border-style: dotted;
+	border-color: #C8DE91;
+	opacity: 1;
+	position: absolute;
+	z-index: -20;
+	top: 850px;
+	left:10px;
+}
+
+.squareV1{
+	width: 40px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 850px;
+	left:90px;
+}
+.squareV2{
+	width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 90px solid white;
+	position: absolute;
+	top: 950px;
+	left:-50px;
+}
+.squareV3{
+	width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 90px solid white;
+	position: absolute;
+	top: 950px;
+	left:150px;
+}
+
+.circleW{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #ffffff 0%,0);
+	border-style: dotted;
+	border-color: #C8DE91;
+	z-index: 20;
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 850px;
+	left:220px;
+
+}
+
+.circleW:hover{
+	opacity: 0;
+}
+
+.circle-W{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 850px;
+	left:220px;
+	-webkit-animation-name: dis; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: infinite; 
+  	animation-duration: 5s;
+}
+.squareW1{
+	width: 30px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 850px;
+	left:260px;
+}
+.squareW2{
+	width: 30px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 850px;
+	left:350px;
+}
+.squareW3{
+	width: 30px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 980px;
+	left:305px;
+}
+.ball8{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border-style: dotted;
+	border-color: #EA907D;
+	opacity: 1;
+	position: absolute;
+	top: 850px;
+	left:430px;
+}
+
+.circleX{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #ffffff 0%,0);
+	border-style: dotted;
+	border-color: #C8DE91;
+	z-index: 20;
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 850px;
+	left:640px;
+
+}
+
+
+.circleX:hover{
+	opacity: 0;
+}
+
+.circle-X{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 850px;
+	left:640px;
+	-webkit-animation-name: dis; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: infinite; 
+  	animation-duration: 5s;
+}
+
+.squareX1{
+	width: 60px;
+	height: 30px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 930px;
+	left:640px;
+}
+.squareX2{
+	width: 60px;
+	height: 30px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 930px;
+	left:780px;
+}
+.squareX3{
+	width: 50px;
+	height: 50px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 850px;
+	left:715px;
+}
+.squareX4{
+	width: 50px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 980px;
+	left:715px;
+}
+
+
+.circleY{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #ffffff 0%,0);
+	border-style: dotted;
+	border-color: #C8DE91;
+	z-index: 20;
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 850px;
+	left:850px;
+
+}
+
+
+.circleY:hover{
+	opacity: 0;
+}
+
+.circle-Y{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 850px;
+	left:850px;
+	-webkit-animation-name: dis; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: infinite; 
+  	animation-duration: 5s;
+}
+
+.squareY1{
+	width: 80px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 970px;
+	left:850px;
+}
+.squareY2{
+	width: 80px;
+	height: 80px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 970px;
+	left: 970px;
+}
+.squareY3{
+	width: 40px;
+	height: 60px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 850px;
+	left: 930px;
+}
+
+.circleZ{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #ffffff 0%,0);
+	border-style: dotted;
+	border-color: #C8DE91;
+	z-index: 20;
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 850px;
+	left:1060px;
+
+}
+
+.circleZ:hover{
+	opacity: 0;
+}
+
+.circle-Z{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: radial-gradient(white 0, #C8DE91 0%);
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 850px;
+	left:1060px;
+	-webkit-animation-name: dis; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: infinite; 
+  	animation-duration: 5s;
+}
+.squareZ1{
+	width: 80px;
+	height: 30px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 900px;
+	left:1060px;
+}
+.squareZ2{
+	width: 80px;
+	height: 50px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 960px;
+	left: 1180px;
+}
+
+.ball9{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border-style: dotted;
+	border-color: #EA907D;
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 850px;
+	left:1270px;
+}
+
+.balll2{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #EA907D;
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 220px;
+	left:220px;
+}
+.balll3{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #EA907D;
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 220px;
+	left:850px;
+}
+.balll4{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #EA907D;
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 430px;
+	left:430px;
+}
+.balll5{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #EA907D;
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 640px;
+	left:10px;
+}
+
+.balll6{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #EA907D;
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 640px;
+	left:640px;
+}
+
+.balll7{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #EA907D;
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 640px;
+	left:1060px;
+}
+
+.balll8{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #EA907D;
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 850px;
+	left:430px;
+}
+
+.balll9{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #EA907D;
+	opacity: 0;
+	transition: opacity 3s;
+	position: absolute;
+	top: 850px;
+	left:1270px;
+}
