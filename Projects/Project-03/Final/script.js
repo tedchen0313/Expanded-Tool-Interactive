@@ -1,0 +1,102 @@
+$(document).ready(function(){
+
+
+
+	$(".tag").click(function(){
+		$(".tag").fadeOut();
+	});
+	$(".tag1").click(function(){
+		$(".tag1").fadeOut();
+	});
+	$(".tag2").click(function(){
+		$(".tag2").fadeOut();
+	});
+	$(".tag3").click(function(){
+		$(".tag3").fadeOut();
+	});
+	$(".tag4").click(function(){
+		$(".tag4").fadeOut();
+	});
+	$(".tag5").click(function(){
+		$(".tag5").fadeOut();
+	});
+	$(".tag6").click(function(){
+		$(".tag6").fadeOut();
+	});
+	$(".tag7").click(function(){
+		$(".tag7").fadeOut();
+	});
+	$(".tag8").click(function(){
+		$(".tag8").fadeOut();
+	});
+	$(".tag9").click(function(){
+		$(".tag9").fadeOut();
+	});
+	$(".tag10").click(function(){
+		$(".tag10").fadeOut();
+	});
+	$(".tag11").click(function(){
+		$(".tag11").fadeOut();
+	});
+	$(".tag12").click(function(){
+		$(".tag12").fadeOut();
+	});
+	$(".tag13").click(function(){
+		$(".tag13").fadeOut();
+	});
+	$(".tag14").click(function(){
+		$(".tag14").fadeOut();
+	});
+	$(".tag15").click(function(){
+		$(".tag15").fadeOut();
+	});
+	$(".tag16").click(function(){
+		$(".tag16").fadeOut();
+	});
+	$(".tag17").click(function(){
+		$(".tag17").fadeOut();
+	});
+	$(".tag18").click(function(){
+		$(".tag18").fadeOut();
+	});
+	$(".tag19").click(function(){
+		$(".tag19").fadeOut();
+	});
+	$(".tag20").click(function(){
+		$(".tag20").fadeOut();
+	});
+	$(".tag21").click(function(){
+		$(".tag21").fadeOut();
+	});
+	$(".tag22").click(function(){
+		$(".tag22").fadeOut();
+	});
+	$(".tag23").click(function(){
+		$(".tag23").fadeOut();
+	});
+	$(".tag24").click(function(){
+		$(".tag24").fadeOut();
+	});
+	$(".cover").click(function(){
+		$(".cover").animate({
+			left: '1100px',
+		});
+	});
+	$(".text_city").click(function(){
+		$(".text_city").animate({
+			left: '3190px',
+		});
+	});
+	$(".sketch3").click(function(){
+		$(".sketch3").animate({
+			left: '4550px',
+		});
+	});
+	$(".circle").click(function(){
+		$(".circle").animate({
+			left: '5900px',
+		});
+	});
+
+
+});
